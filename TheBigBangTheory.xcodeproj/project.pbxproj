@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BAC9121C1E975100AD19D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9111C1E975100AD19D6 /* AppDelegate.swift */; };
+		82BAC9141C1E975200AD19D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9131C1E975200AD19D6 /* ViewController.swift */; };
+		82BAC9171C1E975200AD19D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC9151C1E975200AD19D6 /* Main.storyboard */; };
+		82BAC9191C1E975200AD19D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC9181C1E975200AD19D6 /* Assets.xcassets */; };
+		82BAC91C1C1E975200AD19D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */; };
+		82BAC9271C1E975200AD19D6 /* TheBigBangTheoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9261C1E975200AD19D6 /* TheBigBangTheoryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BAC9231C1E975200AD19D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BAC9061C1E975100AD19D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BAC90D1C1E975100AD19D6;
+			remoteInfo = TheBigBangTheory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82BAC90E1C1E975100AD19D6 /* TheBigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BAC9111C1E975100AD19D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82BAC9131C1E975200AD19D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82BAC9161C1E975200AD19D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82BAC9181C1E975200AD19D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BAC91B1C1E975200AD19D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BAC91D1C1E975200AD19D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BAC9221C1E975200AD19D6 /* TheBigBangTheoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBigBangTheoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BAC9261C1E975200AD19D6 /* TheBigBangTheoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBigBangTheoryTests.swift; sourceTree = "<group>"; };
+		82BAC9281C1E975200AD19D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BAC90B1C1E975100AD19D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BAC91F1C1E975200AD19D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BAC9051C1E975100AD19D6 = {
+			isa = PBXGroup;
+			children = (
+				82BAC9101C1E975100AD19D6 /* TheBigBangTheory */,
+				82BAC9251C1E975200AD19D6 /* TheBigBangTheoryTests */,
+				82BAC90F1C1E975100AD19D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BAC90F1C1E975100AD19D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC90E1C1E975100AD19D6 /* TheBigBangTheory.app */,
+				82BAC9221C1E975200AD19D6 /* TheBigBangTheoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BAC9101C1E975100AD19D6 /* TheBigBangTheory */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9111C1E975100AD19D6 /* AppDelegate.swift */,
+				82BAC9131C1E975200AD19D6 /* ViewController.swift */,
+				82BAC9151C1E975200AD19D6 /* Main.storyboard */,
+				82BAC9181C1E975200AD19D6 /* Assets.xcassets */,
+				82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */,
+				82BAC91D1C1E975200AD19D6 /* Info.plist */,
+			);
+			path = TheBigBangTheory;
+			sourceTree = "<group>";
+		};
+		82BAC9251C1E975200AD19D6 /* TheBigBangTheoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9261C1E975200AD19D6 /* TheBigBangTheoryTests.swift */,
+				82BAC9281C1E975200AD19D6 /* Info.plist */,
+			);
+			path = TheBigBangTheoryTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BAC90D1C1E975100AD19D6 /* TheBigBangTheory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BAC92B1C1E975200AD19D6 /* Build configuration list for PBXNativeTarget "TheBigBangTheory" */;
+			buildPhases = (
+				82BAC90A1C1E975100AD19D6 /* Sources */,
+				82BAC90B1C1E975100AD19D6 /* Frameworks */,
+				82BAC90C1C1E975100AD19D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBigBangTheory;
+			productName = TheBigBangTheory;
+			productReference = 82BAC90E1C1E975100AD19D6 /* TheBigBangTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BAC9211C1E975200AD19D6 /* TheBigBangTheoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BAC92E1C1E975200AD19D6 /* Build configuration list for PBXNativeTarget "TheBigBangTheoryTests" */;
+			buildPhases = (
+				82BAC91E1C1E975200AD19D6 /* Sources */,
+				82BAC91F1C1E975200AD19D6 /* Frameworks */,
+				82BAC9201C1E975200AD19D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BAC9241C1E975200AD19D6 /* PBXTargetDependency */,
+			);
+			name = TheBigBangTheoryTests;
+			productName = TheBigBangTheoryTests;
+			productReference = 82BAC9221C1E975200AD19D6 /* TheBigBangTheoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BAC9061C1E975100AD19D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Caroline.H;
+				TargetAttributes = {
+					82BAC90D1C1E975100AD19D6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7MTGSP2SPC;
+					};
+					82BAC9211C1E975200AD19D6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7MTGSP2SPC;
+						TestTargetID = 82BAC90D1C1E975100AD19D6;
+					};
+				};
+			};
+			buildConfigurationList = 82BAC9091C1E975100AD19D6 /* Build configuration list for PBXProject "TheBigBangTheory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BAC9051C1E975100AD19D6;
+			productRefGroup = 82BAC90F1C1E975100AD19D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BAC90D1C1E975100AD19D6 /* TheBigBangTheory */,
+				82BAC9211C1E975200AD19D6 /* TheBigBangTheoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BAC90C1C1E975100AD19D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BAC91C1C1E975200AD19D6 /* LaunchScreen.storyboard in Resources */,
+				82BAC9191C1E975200AD19D6 /* Assets.xcassets in Resources */,
+				82BAC9171C1E975200AD19D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BAC9201C1E975200AD19D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BAC90A1C1E975100AD19D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BAC9141C1E975200AD19D6 /* ViewController.swift in Sources */,
+				82BAC9121C1E975100AD19D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BAC91E1C1E975200AD19D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BAC9271C1E975200AD19D6 /* TheBigBangTheoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BAC9241C1E975200AD19D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BAC90D1C1E975100AD19D6 /* TheBigBangTheory */;
+			targetProxy = 82BAC9231C1E975200AD19D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82BAC9151C1E975200AD19D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BAC9161C1E975200AD19D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BAC91B1C1E975200AD19D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BAC9291C1E975200AD19D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BAC92A1C1E975200AD19D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BAC92C1C1E975200AD19D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBigBangTheory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82BAC92D1C1E975200AD19D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBigBangTheory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82BAC92F1C1E975200AD19D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheBigBangTheoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBigBangTheory.app/TheBigBangTheory";
+			};
+			name = Debug;
+		};
+		82BAC9301C1E975200AD19D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheBigBangTheoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBigBangTheory.app/TheBigBangTheory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BAC9091C1E975100AD19D6 /* Build configuration list for PBXProject "TheBigBangTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BAC9291C1E975200AD19D6 /* Debug */,
+				82BAC92A1C1E975200AD19D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BAC92B1C1E975200AD19D6 /* Build configuration list for PBXNativeTarget "TheBigBangTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BAC92C1C1E975200AD19D6 /* Debug */,
+				82BAC92D1C1E975200AD19D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82BAC92E1C1E975200AD19D6 /* Build configuration list for PBXNativeTarget "TheBigBangTheoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BAC92F1C1E975200AD19D6 /* Debug */,
+				82BAC9301C1E975200AD19D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BAC9061C1E975100AD19D6 /* Project object */;
+}
