@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		82BAC9121C1E975100AD19D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9111C1E975100AD19D6 /* AppDelegate.swift */; };
 		82BAC9141C1E975200AD19D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9131C1E975200AD19D6 /* ViewController.swift */; };
-		82BAC9171C1E975200AD19D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC9151C1E975200AD19D6 /* Main.storyboard */; };
 		82BAC9191C1E975200AD19D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC9181C1E975200AD19D6 /* Assets.xcassets */; };
 		82BAC91C1C1E975200AD19D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */; };
 		82BAC9271C1E975200AD19D6 /* TheBigBangTheoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9261C1E975200AD19D6 /* TheBigBangTheoryTests.swift */; };
+		82BAC9321C1E97DB00AD19D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC9311C1E97DB00AD19D6 /* Main.storyboard */; };
+		82BAC95A1C1E9C0F00AD19D6 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9491C1E9C0F00AD19D6 /* LeftSlideViewController.m */; };
+		82BAC95B1C1E9C0F00AD19D6 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC94B1C1E9C0F00AD19D6 /* UIView_extra.m */; };
+		82BAC95C1C1E9C0F00AD19D6 /* LeftSortsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC94D1C1E9C0F00AD19D6 /* LeftSortsViewController.swift */; };
+		82BAC95D1C1E9C0F00AD19D6 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC94E1C1E9C0F00AD19D6 /* MainPageViewController.swift */; };
+		82BAC95E1C1E9C0F00AD19D6 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC94F1C1E9C0F00AD19D6 /* OtherViewController.swift */; };
+		82BAC95F1C1E9C0F00AD19D6 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9521C1E9C0F00AD19D6 /* RECommonFunctions.m */; };
+		82BAC9601C1E9C0F00AD19D6 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9541C1E9C0F00AD19D6 /* RESideMenu.m */; };
+		82BAC9611C1E9C0F00AD19D6 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9561C1E9C0F00AD19D6 /* UIViewController+RESideMenu.m */; };
+		82BAC9621C1E9C0F00AD19D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9581C1E9C0F00AD19D6 /* FirstViewController.swift */; };
+		82BAC9631C1E9C0F00AD19D6 /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9591C1E9C0F00AD19D6 /* LeftMenuController.swift */; };
+		82BAC9681C1E9E9600AD19D6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC9671C1E9E9600AD19D6 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8226446C1C1F0C6B00643E4C /* TheBigBangTheory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheBigBangTheory-Bridging-Header.h"; sourceTree = "<group>"; };
 		82BAC90E1C1E975100AD19D6 /* TheBigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BAC9111C1E975100AD19D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82BAC9131C1E975200AD19D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82BAC9161C1E975200AD19D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82BAC9181C1E975200AD19D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BAC9131C1E975200AD19D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		82BAC9181C1E975200AD19D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		82BAC91B1C1E975200AD19D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82BAC91D1C1E975200AD19D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BAC91D1C1E975200AD19D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		82BAC9221C1E975200AD19D6 /* TheBigBangTheoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBigBangTheoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BAC9261C1E975200AD19D6 /* TheBigBangTheoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBigBangTheoryTests.swift; sourceTree = "<group>"; };
 		82BAC9281C1E975200AD19D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BAC9311C1E97DB00AD19D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		82BAC9481C1E9C0F00AD19D6 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		82BAC9491C1E9C0F00AD19D6 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		82BAC94A1C1E9C0F00AD19D6 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		82BAC94B1C1E9C0F00AD19D6 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		82BAC94D1C1E9C0F00AD19D6 /* LeftSortsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSortsViewController.swift; sourceTree = "<group>"; };
+		82BAC94E1C1E9C0F00AD19D6 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		82BAC94F1C1E9C0F00AD19D6 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		82BAC9511C1E9C0F00AD19D6 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		82BAC9521C1E9C0F00AD19D6 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		82BAC9531C1E9C0F00AD19D6 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		82BAC9541C1E9C0F00AD19D6 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		82BAC9551C1E9C0F00AD19D6 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		82BAC9561C1E9C0F00AD19D6 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		82BAC9581C1E9C0F00AD19D6 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		82BAC9591C1E9C0F00AD19D6 /* LeftMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		82BAC9671C1E9E9600AD19D6 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +105,14 @@
 		82BAC9101C1E975100AD19D6 /* TheBigBangTheory */ = {
 			isa = PBXGroup;
 			children = (
+				82BAC9311C1E97DB00AD19D6 /* Main.storyboard */,
 				82BAC9111C1E975100AD19D6 /* AppDelegate.swift */,
-				82BAC9131C1E975200AD19D6 /* ViewController.swift */,
-				82BAC9151C1E975200AD19D6 /* Main.storyboard */,
-				82BAC9181C1E975200AD19D6 /* Assets.xcassets */,
-				82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */,
-				82BAC91D1C1E975200AD19D6 /* Info.plist */,
+				82BAC9341C1E9BD500AD19D6 /* Main */,
+				82BAC9421C1E9BF700AD19D6 /* Tips */,
+				82BAC93E1C1E9BE100AD19D6 /* News */,
+				82BAC9461C1E9C0F00AD19D6 /* Utility */,
+				82BAC9641C1E9CB500AD19D6 /* Resource */,
+				8226446C1C1F0C6B00643E4C /* TheBigBangTheory-Bridging-Header.h */,
 			);
 			path = TheBigBangTheory;
 			sourceTree = "<group>";
@@ -94,6 +124,165 @@
 				82BAC9281C1E975200AD19D6 /* Info.plist */,
 			);
 			path = TheBigBangTheoryTests;
+			sourceTree = "<group>";
+		};
+		82BAC9341C1E9BD500AD19D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9351C1E9BD500AD19D6 /* Controller */,
+				82BAC9371C1E9BD500AD19D6 /* Model */,
+				82BAC9381C1E9BD500AD19D6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		82BAC9351C1E9BD500AD19D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82BAC9371C1E9BD500AD19D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82BAC9381C1E9BD500AD19D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82BAC93E1C1E9BE100AD19D6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC93F1C1E9BE100AD19D6 /* Controller */,
+				82BAC9401C1E9BE100AD19D6 /* Model */,
+				82BAC9411C1E9BE100AD19D6 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		82BAC93F1C1E9BE100AD19D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82BAC9401C1E9BE100AD19D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82BAC9411C1E9BE100AD19D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82BAC9421C1E9BF700AD19D6 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9431C1E9BF700AD19D6 /* Controller */,
+				82BAC9441C1E9BF700AD19D6 /* Model */,
+				82BAC9451C1E9BF700AD19D6 /* View */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		82BAC9431C1E9BF700AD19D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82BAC9441C1E9BF700AD19D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82BAC9451C1E9BF700AD19D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82BAC9461C1E9C0F00AD19D6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9571C1E9C0F00AD19D6 /* RESideMenu_Controller */,
+				82BAC9501C1E9C0F00AD19D6 /* RESideMenu */,
+				82BAC94C1C1E9C0F00AD19D6 /* QQ_Controller */,
+				82BAC9471C1E9C0F00AD19D6 /* QQ */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		82BAC9471C1E9C0F00AD19D6 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9481C1E9C0F00AD19D6 /* LeftSlideViewController.h */,
+				82BAC9491C1E9C0F00AD19D6 /* LeftSlideViewController.m */,
+				82BAC94A1C1E9C0F00AD19D6 /* UIView_extra.h */,
+				82BAC94B1C1E9C0F00AD19D6 /* UIView_extra.m */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		82BAC94C1C1E9C0F00AD19D6 /* QQ_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC94D1C1E9C0F00AD19D6 /* LeftSortsViewController.swift */,
+				82BAC94E1C1E9C0F00AD19D6 /* MainPageViewController.swift */,
+				82BAC94F1C1E9C0F00AD19D6 /* OtherViewController.swift */,
+			);
+			path = QQ_Controller;
+			sourceTree = "<group>";
+		};
+		82BAC9501C1E9C0F00AD19D6 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9511C1E9C0F00AD19D6 /* RECommonFunctions.h */,
+				82BAC9521C1E9C0F00AD19D6 /* RECommonFunctions.m */,
+				82BAC9531C1E9C0F00AD19D6 /* RESideMenu.h */,
+				82BAC9541C1E9C0F00AD19D6 /* RESideMenu.m */,
+				82BAC9551C1E9C0F00AD19D6 /* UIViewController+RESideMenu.h */,
+				82BAC9561C1E9C0F00AD19D6 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		82BAC9571C1E9C0F00AD19D6 /* RESideMenu_Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9581C1E9C0F00AD19D6 /* FirstViewController.swift */,
+				82BAC9591C1E9C0F00AD19D6 /* LeftMenuController.swift */,
+			);
+			path = RESideMenu_Controller;
+			sourceTree = "<group>";
+		};
+		82BAC9641C1E9CB500AD19D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC9181C1E975200AD19D6 /* Assets.xcassets */,
+				82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */,
+				82BAC91D1C1E975200AD19D6 /* Info.plist */,
+				82BAC9131C1E975200AD19D6 /* ViewController.swift */,
+				82BAC9671C1E9E9600AD19D6 /* RootViewController.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +368,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BAC9321C1E97DB00AD19D6 /* Main.storyboard in Resources */,
 				82BAC91C1C1E975200AD19D6 /* LaunchScreen.storyboard in Resources */,
 				82BAC9191C1E975200AD19D6 /* Assets.xcassets in Resources */,
-				82BAC9171C1E975200AD19D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BAC9681C1E9E9600AD19D6 /* RootViewController.swift in Sources */,
 				82BAC9141C1E975200AD19D6 /* ViewController.swift in Sources */,
+				82BAC95B1C1E9C0F00AD19D6 /* UIView_extra.m in Sources */,
+				82BAC9601C1E9C0F00AD19D6 /* RESideMenu.m in Sources */,
+				82BAC95C1C1E9C0F00AD19D6 /* LeftSortsViewController.swift in Sources */,
 				82BAC9121C1E975100AD19D6 /* AppDelegate.swift in Sources */,
+				82BAC9631C1E9C0F00AD19D6 /* LeftMenuController.swift in Sources */,
+				82BAC95D1C1E9C0F00AD19D6 /* MainPageViewController.swift in Sources */,
+				82BAC95A1C1E9C0F00AD19D6 /* LeftSlideViewController.m in Sources */,
+				82BAC95F1C1E9C0F00AD19D6 /* RECommonFunctions.m in Sources */,
+				82BAC95E1C1E9C0F00AD19D6 /* OtherViewController.swift in Sources */,
+				82BAC9611C1E9C0F00AD19D6 /* UIViewController+RESideMenu.m in Sources */,
+				82BAC9621C1E9C0F00AD19D6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,20 +423,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82BAC9151C1E975200AD19D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82BAC9161C1E975200AD19D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82BAC91A1C1E975200AD19D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				82BAC91B1C1E975200AD19D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,6 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheBigBangTheory/TheBigBangTheory-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -342,6 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caroline.TheBigBangTheory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheBigBangTheory/TheBigBangTheory-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -388,6 +583,7 @@
 				82BAC92D1C1E975200AD19D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82BAC92E1C1E975200AD19D6 /* Build configuration list for PBXNativeTarget "TheBigBangTheoryTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +592,7 @@
 				82BAC9301C1E975200AD19D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
